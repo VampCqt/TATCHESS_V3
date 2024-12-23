@@ -1,0 +1,1075 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+    font-family: "Montserrat";
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.container_2 {
+    max-width: 1327px;
+    margin: 0 auto;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Monoton";
+    src: url(../fonts/Monoton.ttf);
+    font-weight: 400;
+}
+
+/* header start */
+
+.logo {
+    padding-top: 59px;
+    font-family: "Monoton";
+    font-size: 36px;
+    text-align: center;
+    line-height: 56.04px;
+    color: white;
+}
+
+/* header end */
+
+/* banner start */
+
+.backgr {
+    margin-top: 39px;
+    background: linear-gradient(180deg, rgba(1, 33, 8, 0) 2.9%, #012108 100%), url(../media/banner/banner.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1420px;
+    height: 735px;
+}
+
+.backgr_2 {
+    background-color: #012108;
+    position: absolute;
+    width: 1420px;
+    height: 3320px;
+    z-index: -110;
+    border-radius: 66px;
+}
+
+.banner_title h1 {
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.btn1 {
+    width: 144px;
+    padding: 11.5px 16px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn2 {
+    width: 144px;
+    padding: 11.5px 29px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.btn3 {
+    padding: 11.5px 20.5px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #012108;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #012108;
+}
+
+.btn3:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #012108;
+}
+
+/* banner end */
+
+/* chess_story start */
+
+.chess_story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 81px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.chess_story_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.29px;
+}
+
+/* chess_story end */
+
+/* chess_today start */
+
+.chess_today {
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+.chess_today_right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: right;
+}
+
+/* chess_today end */
+
+/* tatiana start */
+
+.tatiana {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+
+.tatiana_right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* tatiana end */
+
+/* years start */
+
+.years {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.years_left {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 100px;
+}
+
+.years_left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 43.51px;
+    color: white;
+    cursor: pointer;
+}
+
+.years_left h2 {
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.88px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.years_left h3 {
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.years_left h4 {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.selected {
+    font-size: 48px;
+    /* Размер шрифта для выделенного элемента */
+    font-weight: 700;
+    line-height: 58.51px;
+    color: white;
+}
+
+.years_right {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* years end */
+
+/* years_images start*/
+
+.years_images_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.years_images_block img {
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+}
+
+.active {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    margin-top: 10px;
+}
+
+/* years_images end*/
+
+
+/* partners start*/
+
+.partner_blocks {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    margin-bottom: 30px;
+}
+
+.partner_block {
+    display: none;
+    /* Скрываем все блоки по умолчанию */
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 147px;
+    backdrop-filter: blur(33.400001525878906px);
+    background: #FFFFFF1A;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    /* Плавный переход для opacity */
+}
+
+.partner_block.active {
+    display: flex;
+    /* Показываем только активные блоки */
+}
+
+.partner_block:hover {
+    backdrop-filter: blur(33.400001525878906px);
+    background: #6e62621a;
+    transition: 0.3s;
+}
+
+.partner_arrows {
+    display: flex;
+    gap: 14.5px;
+}
+
+.partner_arrows img {
+    cursor: pointer;
+}
+
+.partner_arrows img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Контейнер для слайдов */
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-track {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    margin-bottom: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 147px;
+    backdrop-filter: blur(33.400001525878906px);
+    background: #FFFFFF1A;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    flex: 0 0 19%;
+}
+
+/* partners end*/
+
+/* footer start */
+
+footer {
+    padding-bottom: 39px;
+}
+
+.footer_line {
+    width: 1327px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    font-family: "Monoton";
+    font-size: 36px;
+    text-align: center;
+    line-height: 56.04px;
+    color: white;
+}
+
+.footer_buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_buttons .btn1,
+.btn2,
+.btn3 {
+    cursor: pointer;
+}
+
+.contact_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 299px;
+    height: 39px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(17px);
+    border-radius: 11px;
+}
+
+.contact_block a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    width: 247px;
+    height: 39px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(17px);
+    border-radius: 11px;
+}
+
+.social_icons img {
+    cursor: pointer;
+}
+
+.footer_bottom_menu {
+    margin-top: 45px;
+    margin-bottom: 103px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.footer_bottom_menu a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #8C9EB0;
+}
+
+/* footer end */
+
+
+/* Game stats */
+
+.stats_backgr {
+    margin-top: 39px;
+    width: 1420px;
+    height: 414px;
+    background: linear-gradient(180deg, rgba(1, 33, 8, 0) 2.9%, #012108 100%), url(../media/banner/banner.png);
+    border-radius: 66px;
+}
+
+.stats_backgr_2 {
+    position: absolute;
+    background-color: #012108;
+    width: 1420px;
+    height: 1670px;
+    z-index: -110;
+    border-radius: 66px;
+}
+
+.stats_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stats_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.year_switcher {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 26px;
+    gap: 20px;
+    width: 493px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14.8px);
+    border-radius: 11px;
+}
+
+.year_button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.year_button:hover {
+    color: white;
+}
+
+.year_button.year_active {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 600;
+}
+
+
+.stats_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 493px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    position: relative;
+}
+
+.stats_search img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 120px;
+    cursor: pointer;
+}
+
+.stats_search input {
+    background: none;
+    width: 100%;
+    /* Растягиваем input */
+    height: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    /* Текст по центру */
+}
+
+.stats_search input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    /* Легкая прозрачность для текста */
+}
+
+
+
+/* таблица со статистикой */
+
+.stats_info {
+    margin-top: 60px;
+    height: 818px;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(28.65px);
+    border-radius: 32px;
+}
+
+.stats_places_block {
+    padding: 70px 260px;
+}
+
+
+.table-container {
+    width: 802px;
+}
+
+.table-container table {
+    margin-top: 90px;
+    width: 802px;
+    border-collapse: collapse;
+}
+
+.table-container td {
+    vertical-align: baseline;
+    padding-top: 23px;
+    position: relative;
+    border-bottom: 1px solid #034111;
+}
+
+.table-container tr {
+    border-bottom: none;
+}
+
+.table-container td.position {
+    border-bottom: none;
+}
+
+.position {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.name {
+    color: #FFF;
+}
+
+.wins {
+    min-width: 84px;
+    position: absolute;
+    color: #FFF;
+    padding: 3px 5px;
+    background: #006616;
+    border-radius: 5px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    right: 215px;
+    top: 22px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.losses {
+    min-width: 124px;
+    position: absolute;
+    color: #FFF;
+    padding: 3px 5px;
+    background: #750000;
+    border-radius: 5px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    white-space: nowrap;
+    right: 85px;
+    top: 22px;
+    font-weight: 500;
+}
+
+.draws {
+    min-width: 76px;
+    position: absolute;
+    color: #FFF;
+    padding: 3px 5px;
+    background: #828282;
+    border-radius: 5px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    right: 0px;
+    top: 22px;
+}
+
+/* page_tatiana start */
+
+.tatiana_backgr_2 {
+    position: absolute;
+    background-color: #012108;
+    width: 1420px;
+    height: 3010px;
+    z-index: -110;
+    border-radius: 66px;
+}
+
+/* project_development start */
+
+.project_info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29px;
+}
+
+.project_left p {
+    text-align: justify;
+}
+
+.project_right p {
+    text-align: justify;
+}
+
+/* project_development end */
+
+
+/* team_project start */
+
+.team_project {
+    padding-bottom: 30px;
+}
+
+.team_list {
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.team {
+    min-width: 24%;
+    /* Отображаем 4 элемента */
+    transition: transform 0.5s ease;
+    opacity: 1;
+    position: relative;
+}
+
+.team img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.team_name {
+    position: absolute;
+    bottom: 4px;
+    padding: 8px 21px;
+    color: white;
+    background-color: rgba(1, 33, 8, 0.6);
+    backdrop-filter: blur(32.25px);
+    border-radius: 20px;
+}
+
+
+/* team_project end */
+
+/* events start */
+
+
+/* Стили для слайдера */
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-bottom: 29px;
+}
+
+.events_photos {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 29px;
+    /* Анимация прокрутки */
+}
+
+.events_slide {
+    flex: 0 0 47%;
+    padding: 0 10px;
+    /* Отступы между слайдами */
+}
+
+.team_name {
+
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* events end */
+
+
+/* page_tatiana end */
+
+/* game_online start */
+
+.game_online_backgr_2 {
+    position: absolute;
+    background-color: #012108;
+    width: 1420px;
+    height: 1070px;
+    z-index: -110;
+    border-radius: 66px;
+}
+
+.game_online_title h2 {
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: center;
+}
+
+.game_blocks {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_game_block {
+    padding: 32px 50px;
+    width: 650px;
+    height: 277px;
+    background: linear-gradient(102.38deg, rgba(0, 24, 6, 0.29) 11.23%, #002709 92.4%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.game_block_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_left h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: white;
+
+}
+
+.text_left p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    color: #FFFFFFB2;
+    margin-top: 5px;
+    margin-bottom: 65px;
+}
+
+.game_btn {
+    padding: 11.5px 20.5px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.game_btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #012108;
+}
+
+.right_game_block {
+    padding: 32px 50px;
+    width: 650px;
+    height: 277px;
+    background: linear-gradient(102.38deg, rgba(0, 24, 6, 0.29) 11.23%, #002709 92.4%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.text_right h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: white;
+}
+
+.text_right p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    color: #FFFFFFB2;
+    margin-top: 5px;
+    margin-bottom: 36px;
+}
+
+/* game_online end */
+
+/* game_chess page start */
+
+.game_chess_backgr_2 {
+    position: absolute;
+    background-color: #012108;
+    width: 1420px;
+    height: 2060px;
+    z-index: -110;
+    border-radius: 66px;
+}
+
+.game_online_title h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+.game_online_title h3 {
+    margin-top: 15px;
+    margin-bottom: 82px;
+    color: #FFFFFFB2;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+.game_menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.table {
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 0px 3px;
+    color: white;
+    vertical-align: baseline;
+    font-size: 20px;
+}
+
+.td_img {
+    width: 37.06px;
+    height: 39px;
+}
+
+td:nth-child(2) {
+    border-bottom: 1px solid #034111;
+}
+
+.time_block {
+    width: 188px;
+}
+
+.you h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+}
+
+.you p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    color: white;
+    padding-right: 25px;
+}
+
+.opponent h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: #FFFFFFB2;
+}
+
+.opponent p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    color: #FFFFFFB2;
+    padding-right: 25px;
+}
+
+.opponent {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.scan {
+    display: flex;
+    gap: 8px;
+}
+
+.scan p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    color: white;
+}
+
+.btns {
+    margin-top: 419px;
+    flex-direction: column;
+    display: flex;
+    gap: 54px;
+}
+
+.chess_btn {
+    padding: 11.5px 38.5px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.chess_btn2 {
+    padding: 11.5px 42px;
+    border-radius: 11px;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    cursor: pointer;
+    opacity: 47%;
+}
+
+.chess_btn:hover {
+    background-color: white;
+    color: #012108;
+}
+
+.chess_btn2:hover{
+    background-color: white;
+    color: #012108;
+    opacity: 100%;
+}
+
